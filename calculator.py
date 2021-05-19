@@ -1,6 +1,5 @@
 import streamlit as st
-st.write("###  My First Calculator")
-first_number = st.number_input("Enter the First Number")
+first_number = st.number_input("Enter the First Number !!!")
 operation = st.selectbox(
     "Select Operation", ("Add", "Substract", "Multiply", "Divide", "Modulus", "Raised to the Power"))
 second_number = st.number_input("Enter the Second Number")
